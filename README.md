@@ -1,3 +1,6 @@
+# Question 2 Calculator
+ it can be accessed from this link: https://github.com/Akshat0908/21MIP10022.
+
 # Social Media Analytics
 
 This project is a responsive React-based web application that visualizes analytical insights from a Social Media Platform. The app fetches data from the provided test server APIs and displays:
