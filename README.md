@@ -1,5 +1,5 @@
 # Question 2 Calculator
- it can be accessed from this link: "https://github.com/Akshat0908/21MIP10022."
+ it can be accessed from this link: https://github.com/Akshat0908/21MIP10022..git
 
 # Social Media Analytics
 
