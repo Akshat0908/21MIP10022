@@ -30,8 +30,8 @@ function TopUsers() {
   return (
     <div className="p-4">
       <h2 className="text-xl font-bold mb-4">Top 5 Users</h2>
-      {topUsers.map((user) => (
-        <div key={user.id} className="p-4 shadow rounded-xl bg-white mb-2 flex items-center gap-4">
+      {topUsers.map((user,index) => (
+        <div key={`${user.id}-${index}`} className="p-4 shadow rounded-xl bg-white mb-2 flex items-center gap-4">
           <img src={user.image} alt="User" className="w-10 h-10 rounded-full" />
           <p className="font-semibold">{user.name}</p>
           <p className="ml-auto text-sm">Posts: {user.postCount}</p>

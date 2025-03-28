@@ -9,7 +9,7 @@ export async function getUsers(token) {
   const usersArray = Object.entries(usersObj).map(([id, name]) => ({
     id,
     name,
-    image: `https://randomuser.me/api/portraits/lego/${id}.jpg`, // You can add any dummy image here
+    image: `https://randomuser.me/api/portraits/lego/${id}.jpg`, 
   }));
   
   console.log("Processed Users:", usersArray);
